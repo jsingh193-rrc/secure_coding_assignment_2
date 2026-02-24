@@ -1,11 +1,8 @@
-- name: Bandit by PyCQA
-  uses: PyCQA/bandit-action@v1.0.1
-
-  name: Bandit
-
+name: Bandit
+ 
 on:
   workflow_dispatch:
-
+ 
 jobs:
   analyze:
     runs-on: ubuntu-latest
